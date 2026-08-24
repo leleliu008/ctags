@@ -2,9 +2,9 @@ name: run units target on MSYS2
 
 on:
   push:
-    branches: [ master ]
+    branches: [ update-gnulib ]
   pull_request:
-    branches: [ master ]
+    branches: [ update-gnulib ]
 
 jobs:
   testing:

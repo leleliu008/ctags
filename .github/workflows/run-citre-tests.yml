@@ -8,9 +8,9 @@ name: run Citre tests on GNU/Linux
 
 on:
   push:
-    branches: [ master ]
+    branches: [ update-gnulib ]
   pull_request:
-    branches: [ master ]
+    branches: [ update-gnulib ]
 
 jobs:
   testing:

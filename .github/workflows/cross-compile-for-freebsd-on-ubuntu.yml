@@ -2,9 +2,9 @@ name: cross compile for FreeBSD on Ubuntu
 
 on:
   push:
-    branches: [ master ]
+    branches: [ update-gnulib ]
   pull_request:
-    branches: [ master ]
+    branches: [ update-gnulib ]
 
 jobs:
   build:

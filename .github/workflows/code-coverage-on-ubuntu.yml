@@ -2,9 +2,9 @@ name: upload coverage report to codecov.io
 
 on:
   push:
-    branches: [ master ]
+    branches: [ update-gnulib ]
   pull_request:
-    branches: [ master ]
+    branches: [ update-gnulib ]
 
 jobs:
   coverage:
