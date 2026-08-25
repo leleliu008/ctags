@@ -112,6 +112,7 @@ copy_gnulib_heads:
 	copy win32\config_mvc.h config.h
 	copy win32\gnulib_h\langinfo.h gnulib
 	copy win32\gnulib_h\fnmatch.h gnulib
+	copy win32\gnulib_h\stdckdint.h gnulib
 
 clean:
 	- del *.obj main\*.obj optlib\*.obj parsers\*.obj parsers\cxx\*.obj gnulib\*.obj misc\packcc\*.obj peg\*.obj extra-cmds\*.obj libreadtags\*.obj dsl\*.obj win32\mkstemp\*.obj win32\*.res main\repoinfo.h
