@@ -99,6 +99,20 @@ typedef int nl_item;
 # define ALTMON_10   (ALTMON_1 + 9)
 # define ALTMON_11   (ALTMON_1 + 10)
 # define ALTMON_12   (ALTMON_1 + 11)
+
+# define ABALTMON_1  10220
+# define ABALTMON_2  (ABALTMON_1 + 1)
+# define ABALTMON_3  (ABALTMON_1 + 2)
+# define ABALTMON_4  (ABALTMON_1 + 3)
+# define ABALTMON_5  (ABALTMON_1 + 4)
+# define ABALTMON_6  (ABALTMON_1 + 5)
+# define ABALTMON_7  (ABALTMON_1 + 6)
+# define ABALTMON_8  (ABALTMON_1 + 7)
+# define ABALTMON_9  (ABALTMON_1 + 8)
+# define ABALTMON_10 (ABALTMON_1 + 9)
+# define ABALTMON_11 (ABALTMON_1 + 10)
+# define ABALTMON_12 (ABALTMON_1 + 11)
+
 # define ABMON_1     10035
 # define ABMON_2     (ABMON_1 + 1)
 # define ABMON_3     (ABMON_1 + 2)
