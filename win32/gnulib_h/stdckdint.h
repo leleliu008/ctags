@@ -22,13 +22,6 @@
 
 
 #ifndef _GL_STDCKDINT_H
-
-/* The include_next requires a split double-inclusion guard.  */
-#if defined __cplusplus ? 1 : 1
-# include_next <stdckdint.h>
-#endif
-
-#ifndef _GL_STDCKDINT_H
 #define _GL_STDCKDINT_H
 
 /* Do nothing but include the system header if it works properly.  */
@@ -55,5 +48,4 @@
 #  define ckd_mul(r, a, b) ((bool) _GL_INT_MULTIPLY_WRAPV (a, b, r))
 
 # endif /* defined __cplusplus ? 0 : 1 */
-#endif /* _GL_STDCKDINT_H */
 #endif /* _GL_STDCKDINT_H */
