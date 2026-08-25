@@ -22,8 +22,6 @@
 #ifndef __ES_LANG_C_STDC99_H__
 #define __ES_LANG_C_STDC99_H__
 
-#include "../main/general.h"
-
 #ifndef _GNU_SOURCE
 #define _GNU_SOURCE
 #endif
