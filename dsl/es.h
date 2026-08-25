@@ -27,6 +27,8 @@
 #endif
 #include <stdio.h>
 
+#include "../main/general.h"
+
 #include "mio.h"
 
 #ifdef  __cplusplus
