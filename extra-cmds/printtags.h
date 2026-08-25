@@ -16,6 +16,8 @@ extern "C" {
 /*
 *   INCLUDE FILES
 */
+#include "../main/general.h"
+
 #include "readtags.h"
 #include <stdbool.h>
 
